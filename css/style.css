@@ -1,0 +1,474 @@
+body{
+    padding: 0%;
+    margin-top: 0%;
+    background-color: #ffffff;
+}
+
+nav{
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    border-bottom: 2px solid #000
+}
+nav ul {
+    
+    display: flex;
+    list-style: none;
+    text-align: right;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: #262932;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+a:hover{
+    color: #59E8AE;
+}
+
+#informacion-principal{
+    height: 500px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-image: url("/img/informacion-principal-img.png");
+    background-color: #262932;
+}
+
+.label-inicial{
+    font-size: 53px;
+    font-family: small-caps 100%/200% serif;
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.label-software{
+    color: #59E8AE;
+}
+
+#contenedor-con-imagen{
+    margin-top: 200px;
+    margin: 50px auto 0;
+    align-items: center;
+    align-content: center;
+    width: 1000px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.informacion-segundaria{
+    font-size: 55px;
+    font-family: small-caps 100%/200% serif;
+    color: #24282C;
+
+}
+
+.informacion-segundaria-parrafo{
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: small-caps 100%/200% serif;
+    color: #94888C;
+    text-align: justify;
+
+}
+
+#contenedor-card{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+    width: 1100px;
+    margin-top: 50px;
+}
+
+h1{
+    color: #212529;
+    font-family: small-caps 100%/200% serif;
+    font-size: 50px;
+    padding-top: 100px;
+    text-align: left;
+
+}
+
+h4{
+    color: #212529;
+    font-family: small-caps 100%/200% serif;
+    font-size: 23px;
+}
+
+.card{
+    background-color: #F7F8FB;
+    border-radius: 20px;
+    border:#F7F8FB;
+}
+
+.card-title{
+    padding-top: 20px;
+}
+
+.texto-cards{
+    margin-top: 10px;
+    padding-bottom:40px ;
+    font-size: 17px;
+    color: #84848C;
+    text-align: left;
+}
+
+.texto-segundo-card{
+    color: #84848C;
+    font-family: small-caps 100%/200% serif;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 50px;
+
+}
+
+.img-icono-nav{
+    border-radius: 15px;
+    width: 55px;
+    height: 80px;
+}
+
+#contenedor-card-dos{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+    margin-top: 35px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #F7F8FB;
+}
+
+#contenedor-card-tres{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 70px;
+    background-color: #262932;
+
+}
+
+.card-contenedor-tres{
+    border-radius: 20px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.card-titulo-tres{
+    margin-top: 10px;
+    padding-bottom:40px ;
+    font-size: 27px;
+    text-align: left;  
+    color: #FFFFFF; 
+}
+.card-texto-tres{
+    padding-bottom: 15px;
+    font-size: 17px;
+    text-align: left;  
+    color: #FFFFFF; 
+    line-height: 2.0;
+}
+
+.card-texto-tres-centrado{
+    text-align: center;
+    padding-top: 15px;
+    color: #848480;
+    padding-left: 130px;
+}
+
+.img-card-3{
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 24px;
+}
+
+.img-planeta-card-tres{
+    text-align: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+#card-titulo-tres-planeta{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 100px;
+    line-height: 1.6;
+
+}
+
+#boton-card-contenedor-tres{
+    color: #FFFFFF;
+    border: solid 2px #FFFFFF;
+    background-color: #262932;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-left: 178px;
+
+}
+
+#boton-card-contenedor-tres:hover{
+    background-color: #F7F8FB;
+    color: #262932;
+}
+
+#contenedor-carousel{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+}
+
+#formulario{
+    background-image: url("/img/img-astronauta-contacto.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 50px;
+    background-color: #262932;
+}
+
+#label-principal-formulario{
+    color: #84848C;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 30px;
+    
+}
+
+#label-titulo-formulario{
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 30px;
+
+}
+
+#formulario-contacto{
+    background-color: #FFFFFF;
+    height: 800px;
+}
+
+#contenedor-card-cuatro{
+    color: #100f0f;
+    border: solid 2px #FFFFFF;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+#card-contenedor-cuatro{
+    border-radius: 20px;
+    padding-top: 100px;
+}
+
+#label-card-cuatro{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.boton-contacto{
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+#boton-whatsapp{
+    color: #FFFFFF;
+    background-color: #25D366;
+    border:#25D366;
+    margin-left: 70px;
+}
+
+#boton-telegram{
+    color: #FFFFFF;
+    background-color: #26A5E5;
+    border: #26A5E5;
+    margin-left: 70px;
+}
+
+h5{
+    font-family: small-caps 100%/200% serif;
+    text-align: left;
+    padding-left: 70px;
+    color: #212529;
+    padding-bottom: 13px;
+
+}
+
+.texto-contacto{
+    font-family: small-caps 100%/200% serif;;
+    text-align: left;
+    padding-left: 70px;
+    color: #84848C;
+    padding-bottom: 15px;
+}
+
+#contacto-formulario{
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+#contacto-formulario-texto{
+    font-family: small-caps 100%/200% serif;
+    text-align: left;
+    color: #84848C;
+    padding-bottom: 15px;
+    padding-top:20px;
+}
+
+#formulario-contacto-datos{
+    background-color: #F7F8FB;
+    height: 500px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 44px;
+}
+
+.input-formulario{
+    background-color: #F7F8FB;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid #d0d0d2;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.input-formulario:focus{
+    border: solid #64d08c;
+    outline: none;
+}
+
+#input-formulario-texto{
+    background-color: #F7F8FB;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 280px;
+    border: solid #d0d0d2;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#input-formulario-texto:focus   {
+    border: solid #64d08c;
+    outline: none;
+}
+
+#button-enviar-formulario{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 25px;
+    background-color: #59E8AE;
+    border: #59E8AE;
+}
+
+#button-enviar-formulario:hover{
+    background-color: #262932;
+    color: #FFFFFF;
+
+}
+
+#contenedor-fa-fa-icon{
+    margin-left: 70px;
+}
+
+footer{
+    background-color: #262932;
+    height: 600px;
+    color: #FFFFFF;
+    padding-top: 70px;
+}
+
+#img-logo-footer{
+    padding-bottom: 30px;
+    padding-left: 70px;
+}
+
+#columna-uno-footer{
+    width: 350px;
+    text-align: left;
+}
+
+#columna-dos-footer{
+    text-align: left;
+}
+
+#columna-tres-footer{
+    width: 250px;
+    text-align: left;
+}
+
+#columna-cuatro-footer{
+    width: 300px;
+    text-align: left;
+}
+
+.texto-footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.texto-footer-dos{
+    color: #747474;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    font-family: small-caps 100%/200% serif;
+    cursor: pointer;
+}
+
+.texto-footer-dos:hover{
+    color: #59E8AE;
+}
+
+.img-footer-partners{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#texto-final-footer{
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
