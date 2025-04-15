@@ -30,6 +30,8 @@ a:hover{
 
 #informacion-principal{
     height: 500px;
+    max-height: auto;
+    max-width: auto;
     text-align: center;
     align-content: center;
     align-items: center;
@@ -54,7 +56,7 @@ a:hover{
     margin: 50px auto 0;
     align-items: center;
     align-content: center;
-    width: 1000px;
+    width: 100%;
     padding-bottom: 20px;
     padding-top: 10px;
     padding-left:10px;
@@ -83,7 +85,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     margin: 50px auto 0;
-    width: 1100px;
+    width:100%;
     margin-top: 50px;
 }
 
@@ -193,9 +195,6 @@ h4{
 }
 
 .img-planeta-card-tres{
-    text-align: center;
-    align-items: center;
-    padding-left: 80px;
     padding-bottom: 20px;
 }
 
@@ -268,6 +267,7 @@ h4{
 #formulario-contacto{
     background-color: #FFFFFF;
     height: 800px;
+    width: 100%;
 }
 
 #contenedor-card-cuatro{
@@ -350,25 +350,24 @@ h5{
     padding-top:20px;
 }
 
-#formulario-contacto-datos{
+#formulario-contacto-datos {
     background-color: #F7F8FB;
     height: 500px;
+    width: 100%;
     border-radius: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 44px;
+    padding: 44px 50px 0 50px;
+    box-sizing: border-box;
 }
 
-.input-formulario{
+.input-formulario {
     background-color: #F7F8FB;
     border-radius: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     border: solid #d0d0d2;
     margin-right: 20px;
     margin-bottom: 20px;
+    box-sizing: border-box;
+    width: 100%; 
 }
 
 .input-formulario:focus{
@@ -382,10 +381,11 @@ h5{
     padding-top: 20px;
     padding-bottom: 100px;
     padding-left: 20px;
-    padding-right: 280px;
+    width: 300px;
+    max-width: 300px;
+    height: 150px;
+    max-height: 150px;
     border: solid #d0d0d2;
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 #input-formulario-texto:focus   {
@@ -415,9 +415,13 @@ h5{
 
 footer{
     background-color: #262932;
-    height: 600px;
+    height: auto;
+    min-height: auto;
     color: #FFFFFF;
     padding-top: 70px;
+    padding-bottom: 100px;
+    width: auto;
+    min-width: auto;
 }
 
 #img-logo-footer{
@@ -472,3 +476,4 @@ footer{
     padding-left: 450px;
     padding-right: 450px;
 }
+
